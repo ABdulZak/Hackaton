@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity_7"
+        android:background="@drawable/background_act7">
+
+
+    <Button
+            android:layout_width="61dp"
+            android:layout_height="78dp" android:id="@+id/button17"
+            android:background="@android:color/transparent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="1dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    <Button
+            android:layout_width="69dp"
+            android:layout_height="67dp" android:id="@+id/button18"
+            app:layout_constraintEnd_toStartOf="@+id/button19" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.396"
+            android:layout_marginBottom="4dp" android:background="@android:color/transparent"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    <Button
+            android:layout_width="72dp"
+            android:layout_height="72dp" android:id="@+id/button19"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:background="@android:color/transparent"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    <Button
+            android:layout_width="66dp"
+            android:layout_height="67dp" android:id="@+id/button20"
+            app:layout_constraintStart_toEndOf="@+id/button19" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.692"
+            android:layout_marginBottom="4dp" android:background="@android:color/transparent"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+
+    <!--    <LinearLayout android:layout_width="match_parent"-->
+<!--                  android:layout_height="match_parent">-->
+<!--        <ImageView android:layout_width="320dp"-->
+<!--                   android:layout_height="676dp"-->
+<!--                   android:gravity="center"-->
+<!--                   android:-->
+<!--                   android:background="@drawable/cl_act_2"-->
+<!--                   tools:ignore="MissingConstraints"-->
+<!--                   android:contentDescription="TODO"/>-->
+<!--    </LinearLayout>-->
+    <ScrollView
+            android:layout_width="295dp"
+            android:layout_height="612dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="1.0" android:layout_marginEnd="45dp"
+            android:layout_marginBottom="76dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+
+            <TextView
+                    android:layout_width="307dp"
+                    android:layout_height="913dp" android:id="@+id/textView"
+                    android:textColor="@color/black" android:textSize="20sp"
+                    android:layout_marginBottom="68dp"
+                    android:text="Морковь\n
+-Растет в норме при температуре 4 5°С\n
+-Высевать можно в конце апреля если температура теплая\n
+-При температуре в 3 4°С посевы могут всходить долго до 15 20 дней\n
+-При температуре до 20 °С посевы могут всходить через 8 10 дней\n
+Всходы моркови\n
+-Выдерживают температуру в -3 -4 °С\n
+Посадка моркови\n
+-Семена моркови тугосхожие. Перед посадкой надо на сутки поставить в горячую кипяченную воду при температуре в 40 50 °С. Затем их нужно подсушить перед посадкой\n
+-Растояние между рядами 15 20 см\n
+-Растояние между семенами 5 7 см\n
+Уход за морковью\n
+-Морковь не любит излишества воды\n
+-В сухом лете(1 дождь за 2 недели) поливать 4 5 л на кв.м.\n
+-Осенью,2 ст. ложки двойного суперфосфата и 1,5 ст. ложки сульфата калия на 1 кв. м – удобрения равномерно разбросать по участку, после чего перекопать почву\n
+-Весной,перед посевом: 1 ст. ложку двойного суперфосфата и 1 ст. ложку нитрофоски на 1 кв. м – удобрения равномерно разбросать по поверхности почвы и заделать граблями\n
+-В грядку при посеве: 1 горсть золы на 1 погонный метр грядки\n
+Дополнительно инфа\n
+-При плохой и плотной земле осенью или весной перед посевом добавить перегной 5 6 кг на кв.м. и перекопать\n
+-Под морковь вносить перегной а не навоз, больше удобрения не требуется\n
+Сбор урожая моркови\n
+-При холоде морковь теряет свой вкус. Убирать поэтому нужно их до заморозков.\n
+-Собирать морковь лучше вечером, так как накапливаются полезные вещества за весь день\n
+Правила хранения моркови\n
+-Срок хранения моркови зависит от корнеплодов. Мелкие и больные портятся быстрее. Крупные, сухие хорошо вызревшые моркови дольше хранятся. Удлененные корнеплоды хранятся хуже чем тупоносые\n
+-Хранить морковь в погребе при температуре 0 1°С"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

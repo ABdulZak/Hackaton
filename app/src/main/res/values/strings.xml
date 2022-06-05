@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HackProject</string>
+    <string name="title">Your\nAgricultural\nAssistant</string>
+    <string name="gs">Get Started -></string>
+    <string name="Locat">Choose the location</string>
+</resources>
